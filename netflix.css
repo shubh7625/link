@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{ height: 650px;
+    margin: auto;
+    width: 100%;
+    background-image: rgb(0,0,0,0.2);
+    background-image: url(bgnetflix.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.84;
+   
+}
+
+.nav ul{ justify-content: center;
+    gap: 900px;
+    display: flex;
+
+    
+}
+.nav ul li{ list-style-type: none;
+    margin-top: 20px;
+    
+}
+ .nav select{
+    background-color: rgba(0, 0, 0, 0.729);
+     position: absolute;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 20px;
+     margin-left: -230px;
+}
+.nav button:nth-child(2){
+   background-color: rgb(201, 19, 19);
+   color: white;
+   padding: 10px;
+   width: 100px;
+   border-radius: 3px;
+   font-size: 20px;
+   border: 1px solid rgb(201,19,19);
+position: relative;
+z-index: 1000;
+    
+}
+.nav button:nth-child(2):hover{
+  background-color: rgba(191, 28, 28, 0.884);
+ 
+}
+.nav ul img{
+    width: 200px;
+    position: relative;
+    z-index: 10;
+}
+.nav button{ position: absolute;
+    z-index: 10;
+    width: 100%;
+    
+}
+.text{ position: absolute;
+    width: 700px;
+    height: 300px;  
+    margin: -430px 400px 400px;
+color: white;
+text-align: center;
+}
+.text h2{ font-weight: 900;
+    font-size: 57px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text span{ font-size: 16px;
+ 
+}
+.text input{ margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    border: 2px solid rgba(254, 227, 227, 0.86);
+    background-color: rgba(250, 235, 215, 0.096);
+    opacity: 0.6;
+    color: white;
+    border-radius:2px ;
+}
+input::placeholder{
+    color: rgb(243, 239, 239);
+    font-size: 15px;
+}
+input:focus{
+    border: 3px solid rgba(255, 255, 255, 1);
+    background-color: rgba(250, 235, 215, 0.096);
+    box-shadow: 4px 4px solid white;
+    ;
+}
+.text button{ background-color: red;
+    color: white;
+    width: 120px;
+    height: 33px;
+    border: 1px solid rgb(234, 217, 217);
+    border-radius: 3px;
+
+}
+.text button:hover{
+    background-color: rgba(191, 28, 28, 0.884);
+    
+}
+.line{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    border-top: 10px solid rgb(128, 123, 123);
+    border-bottom:  5px solid rgb(128, 123, 123);
+   
+}
+.line img{
+    position: relative;
+    z-index: 1000;
+}
+.video{
+    width:363px ;
+    height: 203px;
+    
+    position: absolute;
+    margin-top: -390px;
+    margin-left: 78px;
+}
+.text2 { width: 500px ;
+height: 100px;
+    position: absolute;
+    margin-left: 900px;
+    top: 800px;
+    color: white;
+}
+.text2 h2{ 
+    font-size: 60px;
+    
+}
+.text2 span{
+    font-size: 20px;
+}
+.line2{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    border-top: 5px solid rgb(128, 123, 123);
+    border-bottom:  5px solid rgb(128, 123, 123);
+   
+}
+.line2 img{
+    position: relative;
+    left: 900px;
+}
+.box { position: relative;
+    z-index: 1000;
+    width: 400px;
+    height: 80px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    margin-left: 1020px;
+    margin-top: -100px;
+    background-color: black;
+}
+.box img{ position: absolute;
+    width: 50px;
+    height: 80px;
+    left: 20px;
+
+}
+.text3 { width: 600px ;
+    height: 100px;
+        position: absolute;
+        margin-left: 250px;
+        top: 1300px;
+        color: white;
+    }
+    .text3 h2{ 
+        font-size: 58px;
+        
+    }
+    .text3 span{
+        font-size: 20px;
+    }
+    .box span{
+        color: white;
+        margin-left: 120px;
+        position: absolute;
+        top: 10px;
+        font-size: 20px;
+    }
+    .box span a{
+        position: absolute;
+        top: 30px;
+        text-decoration: none;
+    }
+    .line3{
+        width: 100%;
+        height: 500px;
+        background-color: black;
+        border-top: 5px solid rgb(128, 123, 123);
+        border-bottom:  5px solid rgb(128, 123, 123);
+       
+    }
+    .line3 img{
+        position: relative;
+        z-index: 1000;
+    }
+    .video2{
+        width:363px ;
+        height: 203px;
+        
+        position: absolute;
+        margin-top: -450px;
+        margin-left: 108px;
+    }
+    .text4 { width: 500px ;
+    height: 100px;
+        position: absolute;
+        margin-left: 860px;
+        top: 1800px;
+        color: white;
+    }
+    .text4 h2{ 
+        font-size: 60px;
+        
+    }
+    .text4 span{
+        font-size: 20px;
+    }
+    .line4{
+        width: 100%;
+        height: 500px;
+        background-color: black;
+        border-top: 5px solid rgb(128, 123, 123);
+        border-bottom:  10px solid rgb(128, 123, 123);
+       
+    }
+    .line4 img{
+        position: relative;
+        z-index: 1000;
+        left: 900px;
+    }
+    
+    .text5 { width: 500px ;
+        height: 100px;
+        position: absolute;
+        margin-left: 300px;
+        top: 2300px;
+        color: white;
+    }
+    .text5 h2{ 
+        font-size: 60px;
+        
+    }
+    .text2 span
+        {
+            font-size: 20px;
+        }
+
+        .question{
+            width: 100%;
+            background-color: black;
+            height: 600px;
+            padding: 50px;
+            
+        }
+        .question h2{ font-size: 50px;
+            padding-left: 480px;
+            color: white;
+        }
+        .question div{
+            width: 800px;
+            height: 50px;
+            color: white;
+            margin-top: 100px;
+            margin: auto;
+            background-color: rgb(45,45,45);
+            
+        }
+        .question div:hover{
+            background-color: rgba(127, 124, 124, 0.81);
+        }
+        #ques span{ margin-left: 20px;
+            position: absolute;
+            margin-top: 10px;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #ques i{
+            position: absolute;
+            margin-left: 760px;
+            margin-top: 13px;
+            font-size: 25px;
+        }
+        #info{
+            color: white;
+            font-size: 25px;
+            text-align: center;
+            position: absolute;
+            margin-left: 400px;
+            margin-top: 10px;
+        }
+        .question input{
+            width: 250px;
+            height: 30px;
+            border: 2px solid rgb(254, 227, 227);
+            border-radius: 2px;
+            background-color: black;
+            opacity: 0.6;
+            position: absolute;
+            margin-top: 55px;
+            margin-left: 600px;
+        }
+
+        .question::placeholder{
+            color: rgb(243, 239, 239);
+            font-size: 15px;
+        }
+        .question input:focus{
+                border: 3px solid rgba(255, 255, 255, 1);
+                background-color: rgba(250, 235, 215, 0.096);
+                box-shadow: 4px 4px solid white;
+                
+            }
+        .question button{
+        background-color: red;
+         color: white;
+         width: 120px;
+         height: 33px;
+         border: 1px solid rgb(234, 217, 217);
+         border-radius: 3px;
+         position: absolute;
+         margin-top: 55px;
+         margin-left: 860px;
+        }
+        .question button:hover{
+            background-color: rgba(191, 28, 28, 0.884);
+
+        }
+        footer{ width: 100%;
+            height: 270px;
+            border-top: 10px solid gray;
+            background-color: black;
+            display: flex;
+            align-content: flex-start;
+            column-gap: 180px;
+            padding: 90px ;
+            
+        }
+        footer span{ 
+            color: white;
+            opacity: 0.7;
+            position: absolute;
+            margin-left: 15px;
+            margin-top: -15px;
+            font-size: 16px;
+        }
+        footer span a{
+            color: white;
+        }
+        footer .list li{
+            padding: 15px;
+        }
+        footer ul{
+            list-style-type: none;
+        }
+        footer ul a{ font-size: 16px;
+            color: rgb(234, 234, 234);
+            opacity: 0.7;
+            
+        }
+        .list select{
+            width: 100px;
+            height: 30px;
+            background-color: rgba(207, 194, 194, 0.156);
+            color: white;
+
+        }
+        
+        .list #net{ margin-top: -10px;
+            color: white;
+            opacity: 0.7;
+        }
